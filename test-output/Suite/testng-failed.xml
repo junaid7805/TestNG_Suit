@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="COM.TESTNG.create_customer">
+        <methods>
+          <include name="ActitimeApp"/>
+          <include name="createcustomeractitime"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- COM.TESTNG.create_customer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
